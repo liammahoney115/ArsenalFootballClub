@@ -1,0 +1,211 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin: 0;
+	background-color: whitesmoke;
+  background-image:url(https://previews.123rf.com/images/1stchoice/1stchoice1512/1stchoice151200039/49760024-white-grey-background-gradient-with-light-canvas-texture.jpg);
+  background-repeat: no-repeat;
+  background-size:100vw;
+}
+h1 {
+	font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  display:block;
+  font-family: 'Merienda One';
+  color: whitesmoke;
+}
+
+h2{
+  font-size:2rem;
+  text-align: center;
+  
+}
+.center {
+  margin: 10%;
+  width: 50%;
+  padding: 5px 5%;
+  min-height: 20px;
+}
+
+header {
+  background-color:red;
+  background-image: url(https://d21uc2jkdtk9j5.cloudfront.net/wp-content/uploads/2018/10/red_header-1024x374.png);
+  background-size: 100vw;
+  background-position:center center ;
+  position:relative;
+  min-height:30%;
+  /* Center child horizontally*/
+  display:flex;
+  justify-content: center;
+}
+
+@media(max-width:900px ){
+  h1 {
+     font-size:2rem;
+  }
+  nav {
+    min-height: 15px;
+  }
+  nav a { font-size: 1rem;
+        padding:1px}
+}
+@media (max-width:700px){
+  h1{
+    display:none;
+  }
+  p {
+    font-size:0.6rem;
+  }
+}
+nav{
+  position:fixed;
+  top:0;
+  text-align:center;
+  width:100%;
+  display: block;
+  background-color:grey;
+  min-height:32px;
+  z-index:1;
+  font-size: 1.4rem;
+}
+
+nav > a {
+  text-align: center;
+  display:inline-block;
+  color:white;
+  padding:10px 5%;
+  cursor:pointer;
+}
+ section {
+   border:3px dashed black;
+   margin: 2% 5%;
+   padding:0 10%;
+    background-image: url(https://d21uc2jkdtk9j5.cloudfront.net/wp-content/uploads/2018/10/red_header-1024x374.png);
+  background-size: 100vw;
+  background-position:center center ;
+   font-family: serif;
+   text-align: center;
+   color:aliceblue
+ }
+ #about {
+   background-image: url(https://d21uc2jkdtk9j5.cloudfront.net/wp-content/uploads/2018/10/red_header-1024x374.png);
+  background-size: 100vw;
+  background-position:center center ;
+   font-family: serif;
+   text-align: center;
+   color:aliceblue
+ }
+
+section h2 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+section p {
+  font-size: 1.5rem;
+  
+}
+
+#brief-history {
+  background-image: url(https://d21uc2jkdtk9j5.cloudfront.net/wp-content/uploads/2018/10/red_header-1024x374.png);
+  background-size: 100vw;
+  background-position:center center ;
+  color:whitesmoke;
+  font-family: serif;
+  text-align:center
+}
+#emirates-stadium {
+  background-image: url(https://d21uc2jkdtk9j5.cloudfront.net/wp-content/uploads/2018/10/red_header-1024x374.png);
+  background-size: 100vw;
+  background-position:center center ;
+   color:whitesmoke;
+  font-family: serif;
+  text-align:center
+  
+}
+#img-wrap {
+  width:80vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#pl-table {
+  border-collapse: collapse;
+  margin:30px 0;
+  font-size:0.9em;
+  min-width:400px;
+  border-radius:5px 5px 0 0;
+  overflow: hidden;
+}
+#pl-table th {
+  background-color: black;
+  color:white;
+  text-align:left;
+  font-weight:bold;
+}
+#pl-table td {
+  padding:12px 15px;
+  border-bottom: 1px solid grey;
+}
+
+#news-form input {
+  border: 2px solid black;
+  padding:.25rem;
+  border-radius:5px;
+}
+#news-form label{
+  padding: 5rem 0;
+  font-family: sans-serif;
+}
+#submit {
+  margin: 1rem;
+  background-color:purple;
+  color:white;
+}
+#submit:hover{
+  background-color:blue;
+  cursor: pointer;
+}
+
+.source {
+  font-style: italic;
+}
+
+.crest-img {
+  width:60vw;
+}
+
+.jesus-img {
+  max-height: 200px;
+}
+.vieira-img{
+  max-height:200px;
+}
+.marquinhos-img {
+  max-height: 200px;
+}
+footer {
+	background-color: black;
+	padding: 1em;
+	text-align: center;
+  width: 100%;
+
+}
+
+footer > span {
+	color: silver;
+}
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: silver;
+}
